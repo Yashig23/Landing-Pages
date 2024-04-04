@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(114, 88, 101, 0.881);
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: blue;
+    background-image: url(https://i.pinimg.com/236x/c2/4f/00/c24f009a71312d58ea61569bf965606c.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+}
+
+#overlay{
+   height: 100%;
+   width: 100%;
+   background-color: rgba(161, 145, 149, 0.5);
+}
+
+#part3{
+    height: 100%;
+    width: 6%;
+    /* background-color: green; */
+}
+
+#text-div{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    /* background-color: red; */
+    top: 50%;
+    left: 7%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 900;
+    line-height: 78px;
+    letter-spacing: 6px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+#small-image{
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    background-image: url(https://i.pinimg.com/236x/44/80/55/448055f935f96630e17c1708a0a0ca27.jpg);
+    background-size: cover;
+    transform: translate(0, -50%);
+    background-position: center;
+}
+
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -70%;
+    top: -6%;
+    transform-origin: 0% 0%;
+    /* transform: translate(0, -50%); */
+
+}
+
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 10px;
+    /* transform: rotate(90deg); */
+    text-transform: uppercase;
+    /* right: 5%; */
+
+}
+
+#nav{
+    position: absolute;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 5%;
+    left: 7%;
+    top: 5%;
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nav h5{
+    font-size: 20px;
+    color: white;
+    font-family: gilroy;
+}
+
